@@ -9,7 +9,7 @@
 }
 
 h1{
-    color: white;
+    /* color: white; */
 }
 
 .headin{
@@ -17,7 +17,13 @@ h1{
      margin-bottom: 50px;
     -webkit-box-reflect: below 0px
 						  -webkit-gradient(linear, left top, left bottom, from(transparent),
-						  color-stop(0.4, transparent), to(rgba(255,255,255,.5)));
+                          color-stop(0.4, transparent), to(rgba(255,255,255,.5)));
+}
+
+.leftside{
+    /* background: url('https://cutewallpaper.org/21/black-gif-background/Black-background-gif-13-GIF-Images-Download.gif'); */
+    background-repeat: no-repeat;
+    background-position: center;    
 }
 
 h6{
@@ -30,6 +36,6 @@ h6{
         width: 100%;
     }
     .headin{
-        margin-top: 20px;
+        margin-top: 0px;
     }
 }

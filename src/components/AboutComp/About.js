@@ -5,8 +5,8 @@ function About() {
     return (
         <div className="aboutUs">
             <div className="row">
-                <div className="col-md-6">
-                <h1 className="headin">I'm Aakash Mangla</h1>
+                <div className="col-md-6 leftside">
+                <h1 className="headin text-success">I'm Aakash Mangla</h1>
                 <h6>Practicing Frontend Developer with a demonstrated history
                 of working in the e-learning industry. Skilled in Firebase,
                 Python (Programming Language), C++, Management, and Teamwork.
