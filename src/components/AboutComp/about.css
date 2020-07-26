@@ -1,0 +1,35 @@
+.my-img{
+    height: 720px;
+    width: 70%;
+}
+
+
+
+.aboutUs{
+}
+
+h1{
+    color: white;
+}
+
+.headin{
+    margin-top: 160px;
+     margin-bottom: 50px;
+    -webkit-box-reflect: below 0px
+						  -webkit-gradient(linear, left top, left bottom, from(transparent),
+						  color-stop(0.4, transparent), to(rgba(255,255,255,.5)));
+}
+
+h6{
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    .my-img{
+        height: 580px;
+        width: 100%;
+    }
+    .headin{
+        margin-top: 20px;
+    }
+}
