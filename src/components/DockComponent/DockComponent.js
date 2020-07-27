@@ -32,6 +32,10 @@ class Dock extends Component {
                             <Link to="/experience"><img src="https://image.flaticon.com/icons/svg/2941/2941556.svg"/></Link>
                         </li> */}
                         <li>
+                            <span>Achievements</span>
+                            <Link to="/achievements"><img src="https://image.flaticon.com/icons/svg/893/893899.svg"/></Link>
+                        </li>
+                        <li>
                             <span>Hobbies</span>
                             <Link to="/hobbies"><img src="https://image.flaticon.com/icons/svg/2917/2917633.svg"/></Link>
                         </li>

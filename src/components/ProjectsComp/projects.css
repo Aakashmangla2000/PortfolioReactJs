@@ -9,6 +9,9 @@ z-index: 2;
 padding: 0;
 }
 
+.ss{
+    margin-top: -30px;
+}
 
 .ls{
     /* font-size: 100px; */
@@ -27,6 +30,9 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: mymove6 4s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease;
 }
 
 .screen{
@@ -35,6 +41,9 @@ li{
     margin-left: 21%;
     height: 300px;
     width: 45%;
+    animation: mymove 2s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease;
 }
 
 .pro-el{

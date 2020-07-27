@@ -76,6 +76,9 @@
     margin-top: 20vh;
     padding: 0;
     width: 100%;
+    animation: mymove5 2s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease;
   }
 
   .right-side{
@@ -127,5 +130,8 @@
 
     .left-side{
       margin-top: 0vh;
+      animation: mymove5 2s;
+    /* animation-delay: 3s; */
+      animation-timing-function: ease;
     }
   }

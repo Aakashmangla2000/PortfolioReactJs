@@ -21,7 +21,7 @@ export class Skills extends Component {
                         },
                         {
                             "name":"JavaScript",
-                            "val": 90
+                            "val": 85
                         },
                         {
                             "name":"Java",
@@ -39,11 +39,11 @@ export class Skills extends Component {
                         },
                         {
                             "name":"CSS",
-                            "val": 90
+                            "val": 80
                         },
                         {
                             "name":"React.Js",
-                            "val": 90
+                            "val": 80
                         },
                         {
                             "name":"Redux",

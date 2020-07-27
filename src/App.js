@@ -17,18 +17,20 @@ import Contact from './components/ContactComp/Contact';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
+import Achievements from './components/AchievementsComp/Achievements';
 
 function App() {
   return (
     <Router>
     <div className="App">
       <div className="main-body">
-      <Route path='/projects' exact strict render><Projects/></Route>
-    <Route path='/' exact strict render><About/></Route>
-    <Route path='/skills' exact strict render><Skills/></Route>
-    <Route path='/experience' exact strict render><Experience/></Route>
-    <Route path='/hobbies' exact strict render><Hobbies/></Route>
-    <Route path='/contact' exact strict render><Contact/></Route>
+        <Route path='/projects' exact strict render><Projects/></Route>
+        <Route path='/' exact strict render><About/></Route>
+        <Route path='/skills' exact strict render><Skills/></Route>
+        <Route path='/experience' exact strict render><Experience/></Route>
+        <Route path='/hobbies' exact strict render><Hobbies/></Route>
+        <Route path='/contact' exact strict render><Contact/></Route>
+        <Route path='/achievements' exact strict render><Achievements/></Route>
       </div>
     
       <DockComponent/>

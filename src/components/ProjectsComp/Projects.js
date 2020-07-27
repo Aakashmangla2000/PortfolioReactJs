@@ -24,13 +24,13 @@ export class Projects extends Component {
 
         let proj = this.state.projects.map((el,ind) => {
             return(
-                <li className={`${this.state.clicked===ind?'active':''} pro-el text-primary`}><div onMouseEnter={() => this.elementClicked(ind)}>{this.state.projects[ind].name}    <a target="_blank" href={this.state.projects[ind].link}><img className={`${this.state.clicked===ind?'active2':''} im-link`} src="https://image.flaticon.com/icons/svg/922/922124.svg"></img></a></div></li>
+                <li className={`${this.state.clicked===ind?'active':''} pro-el text-primary`}><div onMouseEnter={() => this.elementClicked(ind)}>{this.state.projects[ind].name}  <a target="_blank" href={this.state.projects[ind].link}><img className={`${this.state.clicked===ind?'active2':''} im-link`} src="https://image.flaticon.com/icons/svg/922/922124.svg"></img></a></div></li>
             )
         })
 
         return (
             <div>
-                <div className="row">
+                <div className="row ss">
                 <div className="col-md-9">
                     {/* <div className="macbook"></div> */}
                     <img className="screen" src={`images/${(this.state.projects[this.state.clicked]).vid}`}></img>

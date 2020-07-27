@@ -25,8 +25,9 @@
     /* position: absolute; */
     /* margin-right: 70%; */
     margin-top: 20px;
+    width: auto;
     height: 400px;
-    width: 50%;
+    /* width: 30%; */
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -39,8 +40,79 @@
     /* margin-right: 60%; */
 }
 
+.photo-frame{
+    width: 80%;
+    height: 75vh;
+    border-radius: 10px;
+    border: 25px solid rgba(0, 102, 255, 0.493);
+    margin: 0;
+    overflow: hidden;
+}
+
+.hob-logo{
+    height: 50px;
+}
+
+.hob-list{
+    
+}
+
+h7{
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    display: inline; 
+}
+.li-item{
+    animation: mymove 4s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease;
+}
+
+.li-item:hover{
+    background-color:rgba(255, 255, 255, 0.233);
+    border-radius: 10px;
+}
+
+.photo{
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    animation: mymove2 3s infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes mymove2 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
 @media screen and (max-width:760px){
+    .rr{
+        margin-top: -30px;
+    }
+    .hob-logo{
+        height: 40px;
+    }
     .headingg{
         margin-left: 25%;
     }
+    .car-img{
+        width: 50%;
+    }
+    h7{
+        font-size: 20px;
+        padding: 0;
+    }
+    li{
+        margin-top: 0;
+    }
+    .photo-frame{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 50vh;
+    width: 95%;
+    border: 5px solid rgba(255, 255, 255, 0.247);
+    }
 }
+

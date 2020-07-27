@@ -1,6 +1,15 @@
 .con-icon{
     height: 50px;
     margin: 20px;
+    animation: mymove3 3s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease;
+}
+
+@keyframes mymove3 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 a span{
@@ -45,7 +54,8 @@ h5{
 .cv{
     color: red;
 }
-@media screen and (max-width:960px){
+
+  @media screen and (max-width:960px){
     .con-icon{
         height: 30px;
         margin: 10px;

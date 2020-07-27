@@ -44,6 +44,8 @@ class Contact extends Component {
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=+919654595941&amp;text=Hello I am looking Forward to work with you!"><img className="con-icon" src="https://image.flaticon.com/icons/svg/889/889235.svg"></img></a>
                 <a target="_blank" href='https://twitter.com/aakashmangla_'><img className="con-icon" src="https://image.flaticon.com/icons/svg/889/889228.svg"></img></a>
                 <a target="_blank" href='https://www.snapchat.com/add/aakash_mangla'><img className="con-icon" src="https://image.flaticon.com/icons/svg/779/779106.svg"></img></a> */}
+                <br></br>
+                <br></br>
             </div>
         )
     }
