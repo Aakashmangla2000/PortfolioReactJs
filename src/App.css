@@ -50,7 +50,7 @@ body{
 
 .main-body{
   background-color: black;
-  height: 80vh;
+  /* height: 80vh; */
   width: 100vw;
   margin: auto;
   margin-top: 40px;

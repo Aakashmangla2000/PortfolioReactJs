@@ -1,8 +1,4 @@
- 
- 
- 
-
-		@media screen and (max-width: 1992px) {
+@media screen and (max-width: 1992px) {
 			#dock-container {
 				position: fixed;
 				bottom: 0;
@@ -50,7 +46,7 @@
 	}
 
 
-		@media only screen and (max-width: 458px) {
+		@media only screen and (max-width: 720px) {
 			#dock-container {
 				position: fixed;
 				bottom: 0;

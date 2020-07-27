@@ -1,0 +1,131 @@
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: row nowrap; */
+  }
+  
+  .single-chart {
+    width: 140px;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #ff9f00;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #4CC790;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #3c9ee5;
+  }
+
+  .circular-chart.red .circle {
+    stroke: red;
+  }
+  
+  .percentage {
+    fill: rgb(160, 160, 160);
+    font-family: sans-serif;
+    font-size: 5px;
+    text-anchor: middle;
+  }
+
+  h4{
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  h4:hover{
+    background-color: rgba(128, 128, 128, 0.466);
+  }
+
+  h6{
+    margin-bottom: 20px;
+  }
+
+  .left-side{
+    margin-top: 20vh;
+    padding: 0;
+    width: 100%;
+  }
+
+  .right-side{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.logo{
+  height: 40px;
+}
+
+.logo2{
+  height: 20px;
+}
+
+.left-list{
+
+}
+
+  @media screen and (max-width:760px){
+
+    .left-side{
+      margin-bottom: 80px;
+    }
+    .right-side{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0;
+  }
+
+    .flex-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0;
+      /* flex-flow: row nowrap; */
+    }
+  
+    .single-chart {
+      width: 100px;
+      justify-content: space-around;
+      /* padding: 0px; */
+      /* margin: 0; */
+    }
+
+    .left-side{
+      margin-top: 0vh;
+    }
+  }

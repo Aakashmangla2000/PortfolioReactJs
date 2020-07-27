@@ -1,0 +1,46 @@
+.car-body{
+    height: 520px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.butn1{
+    position: absolute;
+    height: 50px;
+    /* margin-top: 150px; */
+    margin-left: 30%;
+}
+
+.butn2{
+    /* position: absolute; */
+    /* position: fixed; */
+    height: 50px;
+    /* margin-top: 150px; */
+    margin-right: 75%;
+}
+
+.car-img{
+    /* position: absolute; */
+    /* margin-right: 70%; */
+    margin-top: 20px;
+    height: 400px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.headingg{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40%;
+    /* margin-right: 60%; */
+}
+
+@media screen and (max-width:760px){
+    .headingg{
+        margin-left: 25%;
+    }
+}
