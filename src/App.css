@@ -50,9 +50,9 @@ body{
 
 .main-body{
   background-color: black;
-  height: 70vh;
-  width: 90vw;
+  height: 80vh;
+  width: 100vw;
   margin: auto;
   margin-top: 40px;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
 }

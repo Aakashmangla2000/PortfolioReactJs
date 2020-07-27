@@ -92,10 +92,10 @@
 			  #dock-container li span {
 				display: none;
 				position: absolute;
-				bottom: 50px;
+				bottom: 40px;
 				left: 0;
 				width: 80%;
-				background-color: rgba(0,0,0,0.75);
+				background-color: rgba(0, 0, 0, 0);
 				padding: 4px 0;
 				border-radius: 12px;
 			}

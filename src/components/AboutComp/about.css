@@ -10,14 +10,16 @@
 
 h1{
     /* color: white; */
+    /* margin-left: 150px; */
 }
 
 .headin{
+    font-size: 60px;
     margin-top: 160px;
      margin-bottom: 50px;
     -webkit-box-reflect: below 0px
 						  -webkit-gradient(linear, left top, left bottom, from(transparent),
-                          color-stop(0.4, transparent), to(rgba(255,255,255,.5)));
+                          color-stop(0.5, transparent), to(rgba(255,255,255,.5)));
 }
 
 .leftside{
@@ -28,6 +30,7 @@ h1{
 
 h6{
     color: white;
+    margin-left: 20px;
 }
 
 @media screen and (max-width:500px){
@@ -36,6 +39,17 @@ h6{
         width: 100%;
     }
     .headin{
+        font-size: 40px;
         margin-top: 0px;
+         margin-bottom: 50px;
+        -webkit-box-reflect: below 0px
+        -webkit-gradient(linear, left top, left bottom, from(transparent),
+        color-stop(0.5, transparent), to(rgba(255,255,255,.5)));;
+    }
+    h6{
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* font-size: 1px; */
     }
 }
