@@ -1,0 +1,63 @@
+.con-icon{
+    height: 50px;
+    margin: 20px;
+}
+
+a span{
+    display: none;
+}
+
+a span:hover {
+    display: block;
+    color: #fff;
+}
+
+.my-imgg{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      box-shadow: inset 0 0 10px 6px rgba(0,0,0,0.2);
+}
+
+.crd-bdy{
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    background-image: linear-gradient(45deg, #101010, #2c3e50);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.loc{
+    height: 20px;
+}
+
+h6{
+    color: rgba(255, 255, 255, 0.616);
+}
+h3{
+    color: white;
+}
+h5{
+    color: rgba(98, 98, 252, 0.815);
+}
+.cv{
+    color: red;
+}
+@media screen and (max-width:960px){
+    .con-icon{
+        height: 30px;
+        margin: 10px;
+    }
+    .crd-bdy{
+    margin-top: 10px;
+    }
+
+    .my-imgg{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+}
