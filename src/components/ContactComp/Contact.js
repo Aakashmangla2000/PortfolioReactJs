@@ -16,7 +16,7 @@ class Contact extends Component {
                         </div>
                         <h3>Aakash Mangla</h3>
                         <h5>Engineer, Web Developer</h5>
-                        <a className="cv" target="_blank" href="images/AakashMangla.pdf">Download CV</a>
+                        <a className="cv" target="_blank" href="images/Aakash_Res.pdf">Download CV</a>
                         </div>
                     </div>
                     <div className="row justify-content-center">

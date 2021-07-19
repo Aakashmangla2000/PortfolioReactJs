@@ -27,10 +27,10 @@ class Dock extends Component {
                             <span>Skills</span>
                             <Link to="/skills"><img src="https://image.flaticon.com/icons/svg/3079/3079012.svg"/></Link>
                         </li>
-                        {/* <li>
+                        <li>
                             <span>Experience</span>
                             <Link to="/experience"><img src="https://image.flaticon.com/icons/svg/2941/2941556.svg"/></Link>
-                        </li> */}
+                        </li>
                         <li>
                             <span>Achievements</span>
                             <Link to="/achievements"><img src="https://image.flaticon.com/icons/svg/893/893899.svg"/></Link>

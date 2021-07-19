@@ -7,7 +7,30 @@ export class Projects extends Component {
         super(props)
     
         this.state = {
-            projects: [{"name":"Classic iPod","link":"https://ipod-reactjs.web.app/","vid":"ezgif.com-video-to-gif.gif"},{"name":"Covid-19 Tracker","link":"https://aakashmangla2000.github.io/Covid-19-India-Website/","vid":"ezgif.com-video-to-gif copy.gif"},{"name":"ATTAC","link":"https://docs.google.com/presentation/d/1E0xVpB25lAGZwybCTavIRpZfUZv8Z1R_nCv3VcXBrlo/edit#slide=id.g35f391192_00","vid":"ezgif.com-video-to-gif-3.gif"},{"name":"Tre-Way","link":"https://tre-way.web.app/","vid":"ezgif.com-video-to-gif-2.gif"}],
+            projects: 
+            [{
+                
+                "name": "E-Yantra Ball Balancing Platform",
+                "link": "https://www.youtube.com/watch?v=JY4wzdP-nCE",
+                "vid": "ezgif.com-gif-maker.gif"
+            }, {
+                
+                "name": "Classic iPod",
+                "link": "https://ipod-reactjs.web.app/",
+                "vid": "ezgif.com-video-to-gif.gif"
+            }, {
+                "name": "Covid-19 Tracker",
+                "link": "https://aakashmangla2000.github.io/Covid-19-India-Website/",
+                "vid": "ezgif.com-video-to-gif copy.gif"
+            },{
+                "name": "Tre-Way",
+                "link": "https://tre-way.web.app/",
+                "vid": "ezgif.com-video-to-gif-2.gif"
+            }, {
+                "name": "ATTAC",
+                "link": "https://docs.google.com/presentation/d/1E0xVpB25lAGZwybCTavIRpZfUZv8Z1R_nCv3VcXBrlo/edit#slide=id.g35f391192_00",
+                "vid": "ezgif.com-video-to-gif-3.gif"
+            }],
             active: 0,
             clicked: 0
         }

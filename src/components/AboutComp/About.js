@@ -7,10 +7,8 @@ function About() {
             <div className="row">
                 <div className="col-md-6 leftside">
                 <h1 className="headin">Hi, I'm Aakash Mangla</h1>
-                <h6>Full Stack developer based in Delhi. Skilled in MERN Stack,
-                Python, C++, Project Management, and Teamwork.
-                Strong engineering professional with a B.Tech focused on Information
-                Technology from Bhartiya Vidyapeeth College Of Engineering, New Delhi. </h6>
+                <h6>Dedicated Engineering professional with history of meeting company goals utilizing consistent and organized practices. 
+                    Skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand. </h6>
                 </div>
                 <div className="col-md-6">
                 <img src="/images/me.jpeg" className="my-img"></img>

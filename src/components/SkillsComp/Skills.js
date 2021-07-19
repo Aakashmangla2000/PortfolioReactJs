@@ -13,19 +13,19 @@ export class Skills extends Component {
                     "sub": [
                         {
                             "name":"C++",
-                            "val": 80
+                            "val": 90
+                        },
+                        {
+                            "name":"JavaScript",
+                            "val": 90
+                        },
+                        {
+                            "name":"C#",
+                            "val": 85
                         },
                         {
                             "name":"Python",
                             "val": 70
-                        },
-                        {
-                            "name":"JavaScript",
-                            "val": 85
-                        },
-                        {
-                            "name":"Java",
-                            "val": 50
                         }
                     ],
                     "link": "https://image.flaticon.com/icons/svg/3176/3176336.svg"
@@ -60,8 +60,8 @@ export class Skills extends Component {
                             "val": 80
                         },
                         {
-                            "name":"Express",
-                            "val": 30
+                            "name":".NET",
+                            "val": 70
                         },
                         {
                             "name":"REST API",
@@ -69,7 +69,7 @@ export class Skills extends Component {
                         },
                         {
                             "name":"SQL/No-SQL",
-                            "val": 70
+                            "val": 80
                         }
                     ],
                     "link": "https://image.flaticon.com/icons/svg/2165/2165703.svg"
