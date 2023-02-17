@@ -1,53 +1,53 @@
-.my-img{
-    height: 720px;
-    width: 70%;
-    animation: mymove 4s;
-    /* animation-delay: 3s; */
-    animation-timing-function: ease;
+.my-img {
+  height: 720px;
+  width: 70%;
+  animation: mymove 4s;
+  /* animation-delay: 3s; */
+  animation-timing-function: ease;
 }
 
-
-
-.aboutUs{
+.aboutUs {
 }
 
-h1{
-    /* color: white; */
-    /* margin-left: 150px; */
+h1 {
+  /* color: white; */
+  /* margin-left: 150px; */
 }
 
-.headin{
-    font-size: 60px;
-    margin-top: 160px;
-     margin-bottom: 30px;
-    -webkit-box-reflect: below 0px
-						  -webkit-gradient(linear, left top, left bottom, from(transparent),
-                          color-stop(1, transparent), to(rgba(255,255,255,.5)));
+.headin {
+  font-size: 60px;
+  margin-top: 160px;
+  margin-bottom: 30px;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(1, transparent), to(rgba(255, 255, 255, 0.5)));
 }
 
-.leftside{
-    /* background: url('https://cutewallpaper.org/21/black-gif-background/Black-background-gif-13-GIF-Images-Download.gif'); */
-    background-repeat: no-repeat;
-    background-position: center;    
+.leftside {
+  /* background: url('https://cutewallpaper.org/21/black-gif-background/Black-background-gif-13-GIF-Images-Download.gif'); */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-h6{
-    color: white;
-    margin-left: 40px;
-    position: relative;
-    animation: mymove 3s;
-    animation-timing-function: ease;
-}
-h3,h5{
+h6 {
+  color: white;
+  margin-left: 40px;
+  position: relative;
   animation: mymove 3s;
-    animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+h3,
+h5 {
+  animation: mymove 3s;
+  animation-timing-function: ease;
 }
 
 @keyframes mymove {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
 
 /* Animation */
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
@@ -55,11 +55,12 @@ h3,h5{
 h1 {
   font-size: calc(20px + 18vh);
   /* line-height: calc(20px + 20vh); */
-/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+  /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
     0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
   color: #fccaff; */
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
   font-family: "Sacramento", cursive;
   text-align: center;
   animation: blink 4s infinite;
@@ -98,10 +99,11 @@ h1 {
   54%,
   56%,
   100% {
-/*     color: #fccaff;
+    /*     color: #fccaff;
     text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
       0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
 }
@@ -122,60 +124,90 @@ h1 {
   54%,
   56%,
   100% {
-/*     color: #fccaff;
+    /*     color: #fccaff;
     text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
       0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
 }
 @keyframes mymove4 {
-      0% {top: -800px;}
-      50% {top: 10px;}
-      100% {top: 0px;}
+  0% {
+    top: -800px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 @keyframes mymove6 {
-  0% {right: -800px;}
-  50% {right: 10px;}
-  100% {right: 0px;}
+  0% {
+    right: -800px;
+  }
+  50% {
+    right: 10px;
+  }
+  100% {
+    right: 0px;
+  }
 }
 
 @keyframes mymove5 {
-  0% {left: -800px;}
-      50% {left: 10px;}
-      100% {left: 0px;}
+  0% {
+    left: -800px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
 }
 
-@media screen and (max-width:800px){
-    .my-img{
-        height: 580px;
-        width: 100%;
+@media screen and (max-width: 800px) {
+  .my-img {
+    height: 580px;
+    width: 100%;
+    display: none;
+  }
+  .headin {
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left
+          bottom, from(transparent), color-stop(1, transparent), to(rgba(255, 255, 255, 0.5)));
+  }
+  h6 {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* font-size: 1px; */
+  }
+  @keyframes mymove4 {
+    0% {
+      left: -500px;
     }
-    .headin{
-        font-size: 45px;
-        margin-top: 0px;
-         margin-bottom: 30px;
-        -webkit-box-reflect: below 0px
-        -webkit-gradient(linear, left top, left bottom, from(transparent),
-        color-stop(1, transparent), to(rgba(255,255,255,.5)));;
+    50% {
+      left: 10px;
     }
-    h6{
-        color: white;
-        margin-left: 20px;
-        margin-right: 20px;
-        /* font-size: 1px; */
+    100% {
+      left: 0px;
     }
-    @keyframes mymove4 {
-      0% {left: -500px;}
-      50% {left: 10px;}
-      100% {left: 0px;}
-    }
+  }
 
-    @keyframes mymove5 {
-      0% {top: -500px;}
-      50% {top: 10px;}
-      100% {top: 0px;}
+  @keyframes mymove5 {
+    0% {
+      top: -500px;
     }
-    
+    50% {
+      top: 10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
 }

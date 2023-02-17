@@ -56,7 +56,7 @@ function Experience() {
             <div class="flag-wrapper">
               <span class="flag">IHS Markit (S&P Global)</span>
               <span class="time-wrapper">
-                <span class="time">2021 - 2021</span>
+                <span class="time">Jun 2021 - Jul 2021</span>
               </span>
             </div>
             <div class="desc">
