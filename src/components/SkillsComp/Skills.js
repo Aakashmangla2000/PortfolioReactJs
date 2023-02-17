@@ -11,8 +11,8 @@ export class Skills extends Component {
           name: "Programming Languages",
           sub: [
             {
-              name: "C++",
-              val: 90,
+              name: "Java",
+              val: 80,
             },
             {
               name: "JavaScript",
@@ -23,8 +23,8 @@ export class Skills extends Component {
               val: 85,
             },
             {
-              name: "Python",
-              val: 70,
+              name: "C++",
+              val: 80,
             },
           ],
           link: "https://cdn-icons-png.flaticon.com/512/3176/3176336.png",
@@ -45,7 +45,7 @@ export class Skills extends Component {
               val: 80,
             },
             {
-              name: "Redux",
+              name: "Next.Js",
               val: 60,
             },
           ],
@@ -55,7 +55,7 @@ export class Skills extends Component {
           name: "Back-End",
           sub: [
             {
-              name: "Node.Js",
+              name: "SpringBoot",
               val: 80,
             },
             {
@@ -63,7 +63,7 @@ export class Skills extends Component {
               val: 70,
             },
             {
-              name: "REST API",
+              name: "NodeJs",
               val: 90,
             },
             {

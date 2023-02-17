@@ -22,7 +22,7 @@ function Experience() {
             <div class="desc">
               <h5 style={{ fontSize: "20px" }}>Information Technology</h5>{" "}
               <br />
-              CGPA: 8.21 <br />
+              CGPA: 8.56 <br />
               Coursework: Data Structure, Object Oriented Programming,
               Algorithms Design and Analysis, Software Engineering, Operating
               Systems, Databases, Web Engineering.

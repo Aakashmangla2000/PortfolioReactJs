@@ -18,8 +18,12 @@ class Contact extends Component {
                 <h6 className="m-0">Delhi, India</h6>
               </div>
               <h3>Aakash Mangla</h3>
-              <h5>Engineer, Web Developer</h5>
-              <a className="cv" target="_blank" href="images/Aakash_Res.pdf">
+              <h5>Software Engineer</h5>
+              <a
+                className="cv"
+                target="_blank"
+                href="/images/Aakash_Mangla_Resume_Final_1.pdf"
+              >
                 Download CV
               </a>
             </div>
@@ -40,12 +44,12 @@ class Contact extends Component {
                 src="https://cdn-icons-png.flaticon.com/512/779/779088.png"
               ></img>
             </a>
-            <a target="_blank" href="https://www.instagram.com/aakash_mangla/">
+            {/* <a target="_blank" href="https://www.instagram.com/aakash_mangla/">
               <img
                 className="con-icon"
                 src="https://cdn-icons-png.flaticon.com/512/725/725278.png"
               ></img>
-            </a>
+            </a> */}
             <a target="_blank" href="mailto:aakashmangla15@gmail.com">
               <img
                 className="con-icon"
@@ -61,13 +65,13 @@ class Contact extends Component {
                 src="https://cdn-icons-png.flaticon.com/512/889/889235.png"
               ></img>
             </a>
-            <a target="_blank" href="https://twitter.com/aakashmangla_">
+            {/* <a target="_blank" href="https://twitter.com/aakashmangla_">
               <img
                 className="con-icon"
                 src="https://cdn-icons-png.flaticon.com/512/889/889228.png"
               ></img>
-            </a>
-            <a
+            </a> */}
+            {/* <a
               target="_blank"
               href="https://www.snapchat.com/add/aakash_mangla"
             >
@@ -75,7 +79,7 @@ class Contact extends Component {
                 className="con-icon"
                 src="https://cdn-icons-png.flaticon.com/512/779/779106.png"
               ></img>
-            </a>
+            </a> */}
           </div>
         </div>
         <br></br>
