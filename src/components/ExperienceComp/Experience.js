@@ -80,11 +80,8 @@ function Experience() {
               </span>
             </div>
             <div class="desc">
-              <h5 style={{ fontSize: "20px" }}>
-                Application Development Intern
-              </h5>{" "}
-              <br />
-              Working as an Application Developer Intern at ThoughtWorks.
+              <h5 style={{ fontSize: "20px" }}>Developer Intern</h5> <br />
+              Working as a Developer Intern at ThoughtWorks.
               <br></br>
               Worked with System Designing, Design Patterns, Agile Practices and
               Front-End Development.
@@ -96,14 +93,11 @@ function Experience() {
             <div class="flag-wrapper">
               <span class="flag">ThoughtWorks Technologies</span>
               <span class="time-wrapper">
-                <span class="time">Aug 2022 - Present</span>
+                <span class="time">Aug 2022 - March 2023</span>
               </span>
             </div>
             <div class="desc">
-              <h5 style={{ fontSize: "20px" }}>
-                Developer - Consultant Graduate
-              </h5>{" "}
-              <br />
+              <h5 style={{ fontSize: "20px" }}>Developer</h5> <br />
               •Worked as a Full Stack Developer on a TechOps Project.
               <br></br>
               •Assisted in effortless transition and development of new UI
