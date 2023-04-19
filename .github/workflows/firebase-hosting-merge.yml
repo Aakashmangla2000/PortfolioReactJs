@@ -9,14 +9,14 @@ name: Deploy to Firebase Hosting on merge
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-#     strategy:
-#       matrix:
-#         node-version: [10.x, 12.x, 14.x, 17.x, 18.x]
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x]
     steps:
       - name: Development Code
         uses: actions/checkout@v2
         
-      - name: Use Node.js 17.x
+      - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         
       - name: Install package dependencies
